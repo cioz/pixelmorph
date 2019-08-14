@@ -1,0 +1,85 @@
+.visionWrap {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 1vw;
+    margin-bottom: -3vw;
+}
+
+.vision {
+    width: 100%;
+    text-align: center;
+    min-height: 6vw;
+}
+
+.btnVision {
+    min-height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Fredoka";
+    font-size: 4.5vw;
+    background-color: $color9;
+}
+
+.homeTeaserWrap {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding: 1vw;
+    margin: 1vw;
+}
+.homeTeaserTag {
+    width: 15%;
+    font-family: "Headline";
+    font-size: 1.8vw;
+    text-align: center;
+    font-weight: bolder;
+    color: $color1;
+    min-height: 4vw;
+    text-transform: uppercase;
+}
+.homeTeaserDesc {
+    width: 45%;
+    text-align: center;
+}
+.homeTeaserDesc a {
+    width: 40%;
+    font-size: 1.4vw;
+    color: $color8 !important;
+}
+.homeTeaserChart {
+    padding-left: 1vw;
+    width: 35%;
+}
+.homeTeaserUrl {
+    color: $color1;
+    min-height: 3.5vw;
+    text-transform: uppercase;
+}
+.homeDivide {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid $color1;
+    opacity: .4;
+}
+.homeIcon {
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeTeaserHead a {
+    color: $color8 !important;
+}
+
+.homeTeaserHead {
+    display: table-cell;
+    font-family: "Headline";
+    font-size: 1.8vw;
+    text-align: center;
+    font-weight: bolder;
+    min-height: 6vw;
+}
+
+.teaserWrap {
+    width: 100%;
+}

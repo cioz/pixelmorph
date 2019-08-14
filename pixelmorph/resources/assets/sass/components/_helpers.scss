@@ -1,0 +1,23 @@
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+
+.paddingDefault {
+    padding: 1vw;
+}
+
+.marginDefault {
+    margin: 1vw;
+}

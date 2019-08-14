@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/pixelmorph/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/pixelmorph/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/barryvdh/laravel-dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/dompdf/dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phenx/php-font-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phenx/php-svg-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sabberworm/php-css-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/pixelmorph/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

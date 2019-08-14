@@ -1,0 +1,312 @@
+audio {
+    width: 100%;
+}
+
+.noFound {
+    margin-top: 1vw;
+    font-size: 1.2vw;
+}
+
+.alertNoFound {
+    margin-right: 1vw;
+}
+
+.more {
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+.imageRoundedBorder {
+    min-width: 150px;
+    height: 150px;
+    border-radius: 7%;
+    overflow: hidden;
+}
+
+.playerWrap {
+    width: 100%;
+    padding: 0.5vw;
+}
+
+.playerWaveWrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid $sempa4;
+    padding: 0.4vw;
+    margin-bottom: 0.4vw;
+}
+
+.playerPlayerWrap {
+    width: 100%;
+}
+
+.playerMetaWrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.goBtn {
+    color: $coloragree;
+}
+
+.playerMetaChart {
+    margin-left: -3vw;
+}
+
+.playerMetaLegend {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+}
+
+.playerMetaLegendItem {
+    margin: 0.2vw;
+    padding: 0.4vw;
+    border-radius: 11%;
+}
+
+.playerMetaDesc {
+    width: 65%;
+    margin-left: -3vw;
+}
+
+#playerCover {
+    opacity: 0;
+    border-radius: 100%;
+}
+
+.setsListWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.setsListWrap:hover {
+    cursor: pointer;
+}
+
+.setsListItem {
+    margin: 0.4vw;
+    font-size: 1.1vw;
+    color: $color12;
+}
+
+.filterWrap {
+    position: absolute;
+    top: -12vw;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 12vw;
+    background-color: $color14;
+    left: 0;
+}
+
+.filterBack {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.filterSwitchWrap {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding-bottom: 1vw;
+    padding-top: 0.4vw;
+}
+
+.filterNavWrap {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    padding-top: .3vw;
+    color: $color4;
+}
+
+.btnSearch {
+    width: 80%;
+    background-color: $color9;
+    color: $color14;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filterBtnWrap {
+    margin: 0.2vw;
+    cursor: pointer;
+}
+
+.filterResetBtnWrap {
+    margin: 0.2vw;
+    cursor: pointer;
+}
+
+.filterBackBtnWrap {
+    margin: 0.2vw;
+    cursor: pointer;
+}
+
+.setsWrap {
+    width: 100%;
+    font-size: 0.8vw;
+}
+
+.tagBox {
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vw;
+}
+
+.tagBoxWrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: $fontcolor;
+}
+
+.tagTitle {
+    position: absolute;
+    bottom: 2vw;
+    left: -0.6vw;
+    transform: rotate(-90deg);
+    width: 100%;
+    font-size: 0.8vw;
+    text-align: left;
+    height: 2vw;
+}
+
+.playerSocialIcons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-top: -0.45vw;
+}
+
+.playerSocialIcons a {
+    color: $color11;
+}
+
+.playerSocialIcons a:visited {
+    color: $color11;
+}
+
+.playerSocialIconsPadding {
+    padding: 0.2vw;
+}
+
+#player-container {
+    position: fixed;
+    top: -85px;
+    left: 21.5%;
+    width: 57%;
+    text-align: left;
+}
+
+.titleWrap {
+    width: 100%;
+    border-top: 2px solid $color1;
+    background-color: $color2;
+    opacity: 1;
+}
+
+.playerTitle {
+    font-size: 2vw;
+    font-family: Bold;
+    color: $color1;
+    max-height: 2.5vw;
+}
+
+.playerDate {
+    font-family: Bold;
+    font-size: 1.2vw;
+    color: $color1;
+}
+
+.playerDateSmall {
+    font-family: Bold;
+    font-size: 0.9vw;
+    color: $color1;
+}
+
+.playerTimeText {
+    font-size: 0.9vw;
+}
+
+.playerWrap {
+    position: relative;
+    width: 100%;
+}
+
+.playerWrapOuter {
+    position: relative;
+}
+
+.playerInfoWrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.playlists {
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.playlist {
+    display: none;
+    position: absolute;
+    //   right: 0;
+    //   top: 0;
+    z-index: 100;
+    width: 100%;
+    max-width: 100%;
+    height: 0%;
+    padding: 1vw;
+    font-size: 1vw;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: $color2;
+    cursor: default;
+}
+
+.playlistitem {
+    font-size: 1vw;
+    padding: 0.1vw;
+}
+
+.copyPlaylist {
+    position: absolute;
+    top: 0;
+    right: 3vw;
+    padding: 0.4vw;
+    cursor: pointer;
+}
+
+#playlistToCopy {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.playlistCopyHint {
+    display: none;
+    padding: 1vw 0 2vw 0;
+    color: $coloragree;
+    font-size: 1.3vw;
+    font-weight: bold;
+}

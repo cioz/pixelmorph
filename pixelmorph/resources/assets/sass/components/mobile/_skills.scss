@@ -1,0 +1,123 @@
+.skillItemWrap {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.skillLeftWrap {
+    width: 22%;
+}
+
+.skillColored {
+    background-color: $color12;
+}
+
+.skillItemWrap:hover {
+    background-color: $color12;
+}
+
+.skillItemCircle {
+    justify-content: space-around;
+}
+
+.skillItemText {
+    width: 78%;
+    padding: 0.3vw;
+}
+
+.skillItemText b {
+    font-size: 6vw;
+}
+
+.skillItemIcon {
+    padding: 0.5vw;
+    text-align: center;
+}
+
+.skillItemIcon img {
+    width: 16vw;
+    height: auto;
+}
+
+.skill-cat-head {
+    width: 100%;
+    font-family: Bold;
+    font-size: 6vw;
+    padding-left: 0.8vw;
+    border-bottom: 2px solid $color5;
+}
+
+.skill-skill-item {
+    font-family: Bold;
+    background-color: $color4;
+}
+
+table.person {
+    width: 90%;
+}
+
+td.icon {
+    width: 5%;
+    padding-top: 1.3vw;
+    padding-left: 1.5vw;
+    padding-bottom: 0.5vw;
+    padding-right: 2vw;
+    vertical-align: top;
+}
+
+td.person {
+    width: 20%;
+    vertical-align: top;
+    font-size: 5vw;
+    padding-top: 1;
+    padding-left: 0;
+    padding-bottom: 1vw;
+    padding-right: 0;
+}
+
+td.divide {
+    border-top: 1px solid black;
+}
+
+.pgp {
+    font-size: 0.4vw;
+    background-color: $color2;
+}
+
+#pgpkey {
+    opacity: 0;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: $color3;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.9;
+    stroke-linecap: round;
+    // added with js after docready to start only after finished loading
+    //animation: progress 1s ease-out forwards;
+    stroke: $color11;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}

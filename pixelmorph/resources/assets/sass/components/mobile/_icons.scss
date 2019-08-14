@@ -1,0 +1,50 @@
+.icon-blue {
+    fill: $color2;
+}
+
+.icon-red {
+    fill: $coloralert;
+    color: $coloralert;
+}
+
+.icon-light {
+    fill: $color2;
+    color: $color2;
+}
+
+.icon-textcolor {
+    fill: $color9;
+}
+
+.icon20 {
+    width: 2vw;
+    height: 2vw;
+}
+
+.icon30 {
+    width: 3vw;
+    height: 3vw;
+}
+
+.icon40 {
+    width: 12vw;
+    height: 12vw;
+}
+
+.icon60 {
+    width: 6vw;
+    height: 6vw;
+}
+
+.hamburger {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    font-size: 3vw;
+    width: 15vw;
+    height: 15vw;
+}
+
+.hamburgerBG {
+    fill: $color4;
+}
