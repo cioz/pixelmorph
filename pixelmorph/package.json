@@ -23,7 +23,7 @@
         "jquery": "^3.4.1",
         "jquery-visible": "^1.2.0",
         "materialize-css": "^1.0.0",
-        "node-sass": "^4.12.0",
+        "node-sass": "^7.0.0",
         "nouislider": "^14.0.2",
         "npm-upgrade": "^1.4.1",
         "plyr": "^3.5.6",
